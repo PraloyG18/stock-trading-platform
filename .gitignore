@@ -1,0 +1,32 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Infrastructure configuration
+infrastructure/
+
+# MicroZips / archives
+MicroZips/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
